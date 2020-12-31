@@ -1,0 +1,24 @@
+{
+  "name": "graphql-sql-builder",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jillsoffice/graphql-sql-builder.git"
+  },
+  "keywords": [],
+  "author": "Jill's Office LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jillsoffice/graphql-sql-builder/issues"
+  },
+  "homepage": "https://github.com/jillsoffice/graphql-sql-builder#readme",
+  "dependencies": {
+    "@types/uuid": "3.4.6",
+    "graphql": "14.6.0",
+    "uuid": "8.1.0"
+  }
+}

@@ -1,0 +1,4 @@
+scalar DateTime
+
+directive @model on OBJECT
+directive @db(field: String, ignore: Boolean, default: String) on FIELD_DEFINITION
