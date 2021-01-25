@@ -15,7 +15,7 @@ import {
     ObjectTypeDefinitionNode,
     FieldDefinitionNode
 } from 'graphql';
-import { JOObjectTypeName } from '../jills-office-node/types/index.d';
+import { JOObjectTypeName } from './types.d';
 import {
     getObjectTypeDefinitionNodeForTypeName,
     getModelObjectTypeDefinitionNodes,
@@ -26,7 +26,7 @@ import {
     isFieldNodeAListType,
     isTypeANullableType,
     getFieldDefinitionNodeForFieldNode
-} from '../jills-office-node/graphql/utilities';
+} from './utilities';
 
 const model: string = fs.readFileSync('../jills-office-node/graphql/schema.graphql').toString();
 const GraphQLSchemaDocumentNode: Readonly<DocumentNode> = parse(model);
